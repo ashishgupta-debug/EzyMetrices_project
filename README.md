@@ -29,9 +29,9 @@ npm install
 
 ### 3. Set up Environment Variables
 
-MONGODB_URI=mongodb://localhost:27017/ezymetrics
-MAIL_USER=your_email@gmail.com
-MAIL_PASS=your_email_password
+- **MONGODB_URL**=mongodb://localhost:27017/ezymetrics
+- **MAIL_USER**=your_email@gmail.com
+- **MAIL_PASS**=your_email_password
 
 ### 4. start the server
 
