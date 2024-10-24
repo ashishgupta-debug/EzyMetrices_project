@@ -37,28 +37,29 @@ npm install
 
 node index.js
 
-## API will be available at http://localhost:4000
+### API will be available at 
+http://localhost:4000
 
 ## API Endpoints
 
-**Method**: POST
-**Endpoint**: /api/etl
-**Description**: Fetch lead and campaign data, and store it in the database.
+- **Method**: POST
+- **Endpoint**: /api/etl
+- **Description**: Fetch lead and campaign data, and store it in the database.
 
 **Request Body**:- none
 
 ## Generate Reports
 
-**Method**: GET
-**Endpoint**: /api/reports/generate
-**Description**: Generate reports in PDF or CSV format.
+- **Method**: GET
+- **Endpoint**: /api/reports/generate
+- **Description**: Generate reports in PDF or CSV format.
 
 ## Query Parameters:
 
-**type**: The format of the report. Acceptable values are pdf or csv. Default is pdf.
+- **type**: The format of the report. Acceptable values are pdf or csv. Default is pdf.
 
 ## Send Email Alerts
 
-**Method**: POST
-**Endpoint**: /api/alert
-**Description**: Send email notifications based on certain conditions.
+- **Method**: POST
+- **Endpoint**: /api/alert
+- **Description**: Send email notifications based on certain conditions.
